@@ -1,3 +1,4 @@
+#First Version of Epidemic Spreading models
 import numpy as np
 import datetime as dt
 class SIS():
@@ -32,7 +33,7 @@ class SIS():
             print("Error! (N < 2)")
             
     def dynamics(self):
-        print('dynamic started at:')
+        print('dynamics started at:')
         print(dt.datetime.now())
         step = 0
         while self.iSize > 0:
@@ -56,6 +57,4 @@ class SIS():
             print('dynamic has finished at:')
             print(dt.datetime.now())
             return self.iSizes
-    
-
     
