@@ -1,6 +1,7 @@
 # Complex networks
 import numpy as np
 
+
 class net():
     #base class of networks
     def __init__(self):
